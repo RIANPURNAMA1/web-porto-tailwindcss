@@ -1,0 +1,198 @@
+body{
+    font-family: 'East Sea Dokdo', cursive !important;
+    background: rgb(89, 1, 44);
+    color: rgb(0, 0, 0);
+}
+
+  .text2{
+    color: black;
+  }
+ 
+.dark-mode {
+    background-color: black;
+    color: rgb(0, 0, 0);
+  }
+
+.img{
+    height: 200px;
+}
+
+
+.sidbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.medsos{
+    letter-spacing: 1rem;
+    padding-bottom: 1rem;
+}
+.medsos a{
+    color: aliceblue;
+    font-style: initial;
+    font-size: 1.4rem;
+    
+}
+.cop {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    
+}
+.container1{
+    width: 100%;
+}
+.medsos a:hover{
+    color: blue;
+    transition: 1s;
+    transform: scale3d(10);
+}
+.sidbar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -4000px;
+    width: 250px;
+    
+    line-height: 3rem;
+    z-index: 999;
+   
+   
+}
+.sidbar ul li{
+    color: rgb(0, 0, 0);
+    margin-top: 2rem;
+    margin-left: 1rem;
+
+}
+.sidbar ul li a:hover{
+    background-color: rgb(100, 11, 38);
+    padding: 1rem 3rem;
+    border-radius: 5rem;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    transform: scale3d(1);
+}
+.mobile{
+    display: none;
+    color: aliceblue;
+    
+}
+.col-1{
+    height: 400px;
+}
+#check:checked ~ .sidbar{
+    left: 0;
+    transition: 0.8s;
+    scroll-behavior: smooth;
+}
+.imgg{
+    color: aliceblue;
+}
+#check{
+    display: none;
+}
+.container1{
+    width: 100%;
+    height: 120vh;
+}
+.card{
+   color: black;
+}
+
+@media(max-width:1168px){
+html{
+    font-size: 80%;
+}
+}
+@media(max-width:768px){
+    html{
+        font-size: 80%;
+    }
+    .mobile{
+        display: inline;
+        margin-right: 1rem;
+        margin-top: 0.3rem;
+        color: white;
+
+
+    }
+ .navbar ul li{
+        display: none;
+    }
+    .foll{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        
+    }
+    .col-1{
+        border: none;
+        box-shadow: none;
+    }
+    .img5 img{
+       margin-top: -10rem;
+    }
+}
+@media(max-width:450px){
+    html{
+        font-size: 80%;
+    }
+    .paragraf{
+        margin-left: 2rem;
+    }
+    .paragraf1{
+      margin-left: 3rem;
+    }
+    .map{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .banner{
+        flex-wrap: wrap;
+    }
+    .paragraf{
+        width: 100%;
+    }
+    .about{
+        flex-wrap: wrap;
+        margin-top: -5rem;
+    }
+    .paragraf1{
+        width: 100%;
+        margin: 20px 1rem;
+    }
+    
+    }
+
+@media(max-width:400px){
+   html{
+    font-size: 70%;
+   }
+   .map{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   iframe{
+    width: 250px;
+    height: 200px;
+}
+   .banner{
+    flex-wrap: wrap;
+   }
+   .paragraf{
+    width: 100%;
+   }
+   .about{
+    flex-wrap: wrap;
+    margin-top: -4rem;
+   }
+   .paragraf1{
+    width: 100%;
+    margin: 20px 1rem;
+   }
+   
+}

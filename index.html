@@ -1,0 +1,198 @@
+<!doctype html>
+<html style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=East+Sea+Dokdo&family=Inconsolata:wght@200;300;400;700;800&family=Poppins:ital,wght@0,100;0,200;0,400;0,600;1,900&family=Sevillana&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300;400;500;700&family=Poppins:ital,wght@0,300;0,500;0,700;1,200;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,800&family=Seymour+One&family=Sofia+Sans+Condensed:wght@700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body style="scroll-behavior: smooth;">
+    <input type="checkbox" id="check" />
+    <div class="sidbar bg-gray-800">
+        <ul>
+            <li class="mr-3  hover:text-black"><a href="index.html">Home</a></li>
+            <li classc="mr-3  hover:text-black"><a href="#about">About</a></li>
+            <li class="mr-3  hover:text-black"><a href="#service">Service</a></li>
+            <li class="mr-3  hover:text-black"><a href="#contact">Contact</a></li>
+
+        </ul>
+    </div>
+    <!-- navbar -->
+    <div class="container-none"id="Home">
+        <nav class="flex justify-between font-normal max-w-full h-12 fixed w-full bg-gray-800 text-white shadow-sm shadow-black"">
+        <h2 class=" ml-6 text-3xl ">Porto <span class=" text-pink-900">polio</span> </h2>
+            <div class="navbar mr-9 ">
+                <div class="navbar">
+                    <ul class="flex mt-3">
+                        <li class="mr-3  hover:text-black hover:transition-all hover:scale-90"><a href="index.html">Home</a></li>
+                        <li class="mr-3  hover:text-black hover:transition-all  hover:scale-90"><a href="#about">About</a>
+                        </li>
+                        <li class="mr-3  hover:text-black hover:transition-all  hover:scale-90"><a
+                                href="#service">Service</a></li>
+                        <li class="mr-3  hover:text-black hover:transition-all  hover:scale-90"><a href="#contact">Contact</a>
+                        </li>
+                        <form class="d-flex" role="search">
+                            <input class="rounded-xl opacity border-none" type="search" placeholder="     Search" aria-label="Search">
+                            <button class="font-bold text-white hover:scale-105 hover:text-black" type="submit">Search</button>
+                        </form>
+                        <div class="ml-5 text-2xl text-slate-700">
+                          <a onclick="myFunction()" <i class="fa-solid fa-circle-half-stroke"></i> </a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            
+            <label for="check" class="mobile"> <img src="bars-solid.svg" width="25px"class="text" alt=""></label>
+        </nav>
+    </div>
+    <!-- end -->
+    <!-- banner -->
+    <div class="container">
+        <div class="banner flex justify-evenly">
+            <div class="paragraf mt-20 pl-3 w-96">
+               <h1 class="text-6xl text-rose-900 font-bold">Rian<span class="text-white">Purnama</span></h1>
+               
+               <h2 class="text-rose-900 text-2xl font-serif"id="con"></h2>
+               <p id="text1" class="text-white mr-6 font-mono"></p>
+            </div>
+            <div class="pr-3">
+                <img class=""src="img/komputer-removebg-preview.png"width="300px" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <!-- about -->
+    <div class="container">
+        <h1 id="about" class=" mt-5 text-center text-yellow-700 font-mono font-bold  text-lg"><i class="text-white fa-sharp fa-solid fa-rocket"></i>ABOUT <span class="text-white">ME</span></h1>
+        <div class="about -mt-10 flex justify-center">
+         <div>
+            <img src="WhatsApp_Image_2023-03-03_at_10.58.56-removebg-preview.png"width="300px" alt="">
+         </div>
+         <div class="paragraf1 mt-32 pl-3 w-96 text-white font-mono mb-3">
+             <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, facere hic fugit, voluptate magni est nulla, sequi natus illum architecto error exercitationem molestiae corrupti nam qui vitae eos perspiciatis optio!</p>
+             <button class="px-2 mt-4 text-black bg-blue-600 rounded-xl hover:text-white hover:bg-rose-900">Lihat Selengkapnya</button>
+         </div>
+        </div>
+    </div>
+    <!-- about -->
+    <!-- service -->
+    <div class="container mt-10">
+        <h1 id="service" class="text-center text-2xl text-yellow-700 font-mono font-bold "><i class=" text-lg text-white fa-solid fa-bug"></i>Service</h1>
+        <div class="service flex justify-center gap-7 flex-wrap mt-14 font-bold text-white">
+          <div class="text-center  bg-pink-800   hover:scale-125 hover:transition-all hover:bg-black shadow-lg shadow-black p-2 w-32">
+            <h2 class="text-7xl text-green-500 "><i class="fa-brands fa-android"></i></h2>
+            <p class="">Mobile App</p>
+          </div>
+
+          <div class="text-center  bg-pink-800  shadow-lg shadow-black hover:scale-125 hover:transition-all  hover:bg-black p-2 w-32">
+            <h2 class="text-7xl text-slate-600"><i class="fa-brands fa-php"></i></i></h2>
+            <p class="">PHP</p>
+          </div>
+
+          <div class="text-center  bg-pink-800 shadow-lg shadow-black hover:scale-125 hover:transition-all  hover:bg-black p-2 w-32">
+            <h2 class="text-7xl text-blue-400"><i class="fa-brands fa-react"></i></i></h2>
+            <p class="">React Js</p>
+          </div>
+
+          <div class="text-center  bg-pink-800  shadow-lg shadow-black hover:scale-125 hover:transition-all  hover:bg-black p-2 w-32">
+            <h2 class="text-7xl text-orange-600"><i class="fa-brands fa-html5"></i></i></h2>
+            <p class="">HTML</p>
+          </div>
+
+          <div class="text-center  bg-pink-800  shadow-lg shadow-black hover:scale-125 hover:transition-all  hover:bg-black p-2 w-32">
+            <h2 class="text-7xl text-blue-800"><i class="fa-brands fa-css3-alt"></i></i></h2>
+            <p class="">CSS</p>
+          </div>
+
+          <div class="text-center  bg-pink-800  shadow-lg shadow-black hover:scale-125 hover:transition-all  hover:bg-black p-2 w-32">
+            <h2 class="text-7xl text-yellow-500"><i class="fa-brands fa-js"></i></h2>
+            <p class="">Javascript</p>
+          </div>
+        </div>
+    </div>
+    <!-- service -->
+    <!-- contact -->
+    <div  id="contact" class="container">
+        <h1 class="text-yellow-700 font-mono font-bold text-center text-lg mt-10"><i class="text-lg text-white fa-solid fa-user"></i> Contact</h1>
+        <div class="contact  border-red-700 flex justify-center flex-wrap gap-10 p-10">
+
+            <form class="text-white w-96">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="">Email</label>
+                  <input type="email" class="border shadow-lg form-control w-96 p-1 text-black hover:bg-rose-900 transition-all"placeholder="  Masukan Email Anda" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Nama Lengkap</label>
+                  <input type="password"placeholder="Masukan Nama Lengkap" class="border shadow-lg  form-control w-96 p-1 text-black hover:bg-rose-800 transition-all" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label ">Kirim Pesan</label>
+                    <textarea placeholder="  Masukan Teks" class="border shadow-lg  form-control w-96 text-black" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                <button type="submit" class="bg-blue-700 p-2 px-4 rounded-lg hover:scale-125">Submit</button>
+              </form>
+              
+              <div class="map">
+              
+                <div class="map">
+                  
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31692.543813261254!2d107.11708571570027!3d-6.822279800975229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6852f4f71b004b%3A0x401e8f1fc28dad0!2sCianjur%2C%20Kec.%20Cianjur%2C%20Kabupaten%20Cianjur%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1679490628845!5m2!1sid!2sid" width="450" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+        </div>
+    </div>
+    <!-- contact -->
+<!-- footer -->
+<div class="container bg-gray-800 w-max">
+    <div class="footer text-center gap-2 pt-3 pb-3 bg-gray-800 w-screen ">
+        <div class="medsos gap-8 pt-4">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <a href="#Home"><button class="bg-blue-700 py-2 px-5 rounded-lg mb-2 text-white font-serif hover:scale-105">Back To Home</button></a>
+        <p class="cop text-white italic text-sm">Copyirgt RianPurnama. 2023 Allrigths reserved</p>
+    </div>
+</div>
+<!-- footer -->
+<script src="script.js"></script>
+<!--js EFEK KETIK-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+  var typed = new Typed("#con", {
+    strings: ["Web Design", "Web Developer", "Thanks You......!"],
+    typeSpeed: 300,
+    loop: true,
+  });
+</script>
+ <!--js EFEK KETIK-->
+   <!--JS DARK MODE-->
+   <script>
+    
+    function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
+  </script>
+   <!--JS DARK MODE-->
+</body>
+</html>
